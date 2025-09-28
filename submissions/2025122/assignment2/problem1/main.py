@@ -21,7 +21,7 @@ class Accumulator:
         """
         # TODO: 내부 total 값을 반환하세요
         # 힌트: return self._total
-        raise NotImplementedError
+        return self._total
 
     @total.setter
     def total(self, value: float) -> None:
