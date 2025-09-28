@@ -12,7 +12,7 @@ class Accumulator:
         """
         # TODO: 시작값을 인스턴스 변수에 저장하세요
         # 힌트: self._total = start (private 변수 사용)
-        raise NotImplementedError
+        self._total = start
 
     @property
     def total(self) -> float:
